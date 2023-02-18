@@ -104,7 +104,7 @@ def show_avatar():
 
 if __name__ == '__main__':
     frame_number = 0
-    root=tk.Tk()                                                # initalizing label
+    root=tk.Tk()                                                # initalizing label 
     lmain = tk.Label(master=root,padx=50,bd=10)
     lmain2 = tk.Label(master=root,bd=10)
     lmain3 = tk.Label(master=root,bd=10,fg="#CDCDCD",bg='black')
@@ -116,7 +116,7 @@ if __name__ == '__main__':
     lmain2.place(x=900,y=350)
 
     root.title('Photo To Emoji')
-    root.geometry("1400x900+100+10")
+    root.geometry("1400x900+100+10")                           # geromertry
     root['bg']='black'
     exitButton = Button(root, text='Quit', fg="red", command=root.destroy,font=('aerial',25,'bold')).pack(side=BOTTOM)
     threading.Thread(target=show_subject).start()
