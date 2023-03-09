@@ -56,13 +56,13 @@ validation_generator = val_datagen.flow_from_directory(
 # 2D Convunational neural networks layer-- input 32, width and height 3*3, input_shape = size of pictures, 
 # MaxPooling2D 
 # Dense layer -- 1024 neurons convert to 7 neurons
-### 
+#####
 #The script then creates an instance of the Sequential class from Keras, which represents a linear stack of layers in the neural network. 
 #The script adds several layers to the network, including Conv2D, MaxPooling2D, Flatten, and Dense layers. 
 #The Conv2D layer performs convolution operations on the image data, while the MaxPooling2D layer performs pooling operations to reduce the size of the feature maps. 
 #The Flatten layer converts the feature maps into a 1D array, and the Dense layer implements a fully connected neural network. 
 #Dropout layers are used to prevent overfitting during training.
-###
+#####
 
 emotion_model = Sequential()
 emotion_model.add(Conv2D(32, kernel_size=(3,3), activation='relu', input_shape=(48,48,1)))
