@@ -21,6 +21,7 @@ val_dir = 'data/test'
 #The data is loaded using the ImageDataGenerator class from Keras, which is used to pre-process the image data. 
 #The data is rescaled so that all pixel values are in the range [0,1].
 ###
+
 # Image from data with scale
 train_datagen = ImageDataGenerator(rescale=1./255)
 val_datagen = ImageDataGenerator(rescale=1./255)
