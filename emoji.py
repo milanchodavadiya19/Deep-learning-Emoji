@@ -36,6 +36,7 @@ emotion_dict = {0: "  Angry  ", 1: "  Disgusted  ", 2: "  Fearful  ", 3: "  Happ
 # generating current path, we need os library, directory name and referencing absolute path
 cur_path = os.path.dirname(os.path.abspath(__file__))
 
+
 # Dictionary : we are in current path, so directly linked to it and give the path
 emoji_dist={0:cur_path+"/emojis/angry.png",1:cur_path+"/emojis/digusted.png",2:cur_path+"/emojis/fearful.png",3:cur_path+"/emojis/happy.png",4:cur_path+"/emojis/neutral.png",5:cur_path+"/emojis/sad.png",6:cur_path+"/emojis/surprised.png"}
 
