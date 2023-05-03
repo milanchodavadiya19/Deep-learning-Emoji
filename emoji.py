@@ -91,9 +91,11 @@ def show_subject():
         exit()
 
 def show_avatar():
-    frame2=cv2.imread(emoji_dist[show_text[0]])                 # read emoji
+    frame2=cv2.imread(emoji_dist[show_text[0]])                 
+    # read emoji
     pic2=cv2.cvtColor(frame2,cv2.COLOR_BGR2RGB)
-    img2 = Image.fromarray(frame2)                          # creating img from array frame2
+    img2 = Image.fromarray(frame2)                          
+    # creating img from array frame2
     imgtk2 = ImageTk.PhotoImage(image=img2)
     lmain2.imgtk2=imgtk2
     lmain3.configure(text=emotion_dict[show_text[0]],font=('arial',45,'bold'))
