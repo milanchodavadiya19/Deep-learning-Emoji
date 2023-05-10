@@ -28,7 +28,6 @@ emotion_model.add(Dense(1024, activation='relu'))
 emotion_model.add(Dropout(0.5))
 emotion_model.add(Dense(7, activation='softmax'))
 emotion_model.load_weights('model.h5')                                                   
-
 # load the weight - model                       
 cv2.ocl.setUseOpenCL(False)
 
