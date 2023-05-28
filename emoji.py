@@ -33,7 +33,6 @@ emotion_model.load_weights('model.h5')
 cv2.ocl.setUseOpenCL(False)
 
 
-
 emotion_dict = {0: "  Angry  ", 1: "  Disgusted  ", 2: "  Fearful  ", 3: "  Happy  ", 4: "  Neutral  ", 5: "  Sad  ", 6: "  Surprised  "}
 # generating current path, we need os library, directory name and referencing absolute path
 cur_path = os.path.dirname(os.path.abspath(__file__))
