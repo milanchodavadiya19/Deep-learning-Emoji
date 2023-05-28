@@ -49,8 +49,6 @@ validation_generator = val_datagen.flow_from_directory(
         class_mode='categorical')
 
 
-
-
 # create model and prepraring for training
 # emotion_model variable creating
 # keras we have two option - Sequential and functional
