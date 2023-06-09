@@ -1,7 +1,6 @@
 import numpy as np
 import cv2
 
-
 from tensorflow.keras.models import Sequential
 from keras.layers import Dense, Dropout, Flatten
 from keras.layers import Conv2D
