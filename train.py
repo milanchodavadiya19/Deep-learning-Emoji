@@ -14,6 +14,7 @@ from keras.preprocessing.image import ImageDataGenerator
 train_dir = 'data/train'
 val_dir = 'data/test'
 
+
 ###
 #the script sets up two directories for the training and validation data. 
 #The data is loaded using the ImageDataGenerator class from Keras, which is used to pre-process the image data. 
