@@ -8,6 +8,7 @@ from keras.optimizers import Adam
 from keras.layers import MaxPooling2D
 from keras.preprocessing.image import ImageDataGenerator
 
+
 # All layers after import
 
 # two directory
